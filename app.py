@@ -19,10 +19,6 @@ api.init_app(app)
 #Tabelas
 class cliente(db.Model):
     id = db.Column(db.Integer,primary_key=True,autoincrement=True)
-    name = db.Column(db.String)
-    email = db.Column(db.String)
-    password = db.Column(db.String)
-    id = db.Column(db.Integer,primary_key=True,autoincrement=True)
     nome= db.Column(db.String)
     cpf = db.Column(db.Integer)
     estado_civil = db.Column(db.String)
